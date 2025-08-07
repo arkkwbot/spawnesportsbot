@@ -1,0 +1,21 @@
+{
+  "monitored_categories": ["lol", "counter_strike"],
+  "notification_methods": {
+    "email": {
+      "enabled": false,
+      "smtp_server": "smtp.gmail.com",
+      "smtp_port": 587,
+      "email_user": "",
+      "email_password": "",
+      "recipient": ""
+    },
+    "telegram": {
+      "enabled": true,
+      "bot_token": "7515363058:AAH_snuawhCciTdxJZFhfR4TV_fTk1WlHrg",
+      "chat_id": "7638499009"
+    }
+  },
+  "check_interval": 300,
+  "duelbits_enabled": true,
+  "pinnacle_enabled": true
+}
